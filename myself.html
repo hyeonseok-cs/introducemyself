@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hyeonseok's profile</title>
+    <script
+        src="https://kit.fontawesome.com/2d323a629b.js"
+        crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+</head>
+<style>
+    .img-size{
+        left: 50%;
+        margin-left: -200px;
+    }
+    
+    .content-table{
+        border-collapse: collapse;
+        margin: -24px 0;
+        font-size: 0.9em;
+        min-width: 400px;
+        position: absolute;
+        left: 50%;
+        margin-left: -200px;
+    }
+
+    .content-table thead tr{
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .content-table th,
+    .content-table td{
+        padding: 12px 15px;
+    }
+
+    .content-table tbody tr{
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .content-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .content-table tbody tr:last-of-type {
+        border-bottom: 2px solid gray;
+    }
+
+    .color2{
+            background-color:gray;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+
+    .color3{
+        color: orange;
+    }    
+</style>
+
+<body>
+    
+
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <i class="fas fa-terminal"></i>
+            <a href="">Hyeonseok's Profile</a>
+        </div>
+
+        <ul class="navbar__menu">
+            <li><a href=""><strong>컴퓨터소프트웨어과 20학번 유현석입니다.</strong></a></li>
+            
+        </ul>
+        
+        <ul class="navbar__icons">
+            <i class="fas fa-shield-alt"></i>
+        </ul>
+
+        <a href="#" class="navbar__toogleBtn">
+            <i class="fas fa-bars"></i>
+            
+        </a>
+    </nav>
+
+   <div class="wrap">
+       <img src="./IMG_1561.PNG" alt="logo" />
+   </div>
+   
+    
+    <table class="content-table">
+        <tr>
+            <td colspan="2" class="color2"><i class="fas fa-file-alt"></i><strong> Hyeonseok's Profile Card</strong></td>
+        </tr>
+        <tr>
+            <th>이름</th>
+            <td>유현석</td>
+        </tr>
+        <tr>
+            <th>나이</th>
+            <td>20</td>
+        </tr>
+        <tr>
+            <th>관심분야</th>
+            <td>프론트엔드 개발</td>
+        </tr>
+        <tr>
+            <th>취미</th>
+            <td>영상편집하기, 드로잉</td>
+        </tr>
+        <tr>
+            <th>좋아하는 색깔</th>
+            <td class="color3"><strong>Orange</strong></td>
+        </tr>
+    </table>
+</body>
+</html>
